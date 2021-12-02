@@ -1,1 +1,33 @@
 @import url(banner.css);
+@import url(avatar.css);
+@import url(cards.css);
+@import url(container.css);
+@import url(button.css);
+
+body{
+	background-color: indianred;
+}
+h1{font-family: 'Acme', sans-serif;
+	text-align: center;
+	font-size: 80px;}
+
+h2,h3,h4{font-family: 'Lobster', cursive;}
+a{
+	text-decoration: none;
+}
+
+@media (max-width: 960px) {
+	.container{ 
+		width: 700px;
+	}
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+	}
+}
+@media (max-width: 540px){
+	.container{
+		width: 300px;
+	}
+}
