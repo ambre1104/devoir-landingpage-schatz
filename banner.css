@@ -1,7 +1,10 @@
 .banner {
-	background-image: url("images/background.jpeg");
+	background-image: url("images/banière.jpeg");
 	background-size: cover;
 	background-position: center;
-	color:  white;
+	color:  black;
 	padding: 150px 0px;
+	letter-spacing: 10px;
+	opacity: 0.9;
 }
+

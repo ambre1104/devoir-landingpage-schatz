@@ -3,6 +3,7 @@
 @import url(cards.css);
 @import url(container.css);
 @import url(button.css);
+@import url(footer.css);
 
 body{
 	background-color: indianred;
@@ -11,23 +12,16 @@ h1{font-family: 'Acme', sans-serif;
 	text-align: center;
 	font-size: 80px;}
 
-h2,h3,h4{font-family: 'Lobster', cursive;}
+h2,h3,h4 {
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: white
+	font-weight: bold;
+}
 a{
 	text-decoration: none;
 }
-
-@media (max-width: 960px) {
-	.container{ 
-		width: 700px;
-	}
-}
-@media (max-width: 720px){
-	.container{
-		width: 500px;
-	}
-}
-@media (max-width: 540px){
-	.container{
-		width: 300px;
-	}
-}
+p{font-family: 'Lobster', cursive;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;}
